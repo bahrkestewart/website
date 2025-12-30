@@ -6,7 +6,11 @@ img{float: right; margin-bottom:25px; margin-right:40px; border-color:var(--lynk
 hr{border-color:var(--lynks);}
 a:visited{color: var(--lynks); text-shadow: 3px 3px 6px rgba(0,0,0,0.6);}
 a{color:var(--lynks); text-shadow: 3px 3px 6px rgba(0,0,0,0.6);}
-button{float:left; margin:10px; width:75px; height:30px; background-color:rgb(130,80,135); border-color:var(--lynks); color:var(--lynks); text-shadow: 3px 3px 6px rgba(0,0,0,0.6)}
+button{float:left; margin:10px; width:120px; height:40px; background-color:rgb(130,80,135); border-color:var(--lynks); color:var(--lynks); text-shadow: 3px 3px 6px rgba(0,0,0,0.6)}
 button:active{background-color:rgb(175,140,190);}
 .clr{clear:both;}
- 
+#nam{text-shadow: 3px 3px 3px rgba(0,0,0,0.8)}
+
+
+ul { list-style: none; padding-left: 1.5em; margin: 0; } ul li { margin-bottom: 0.5em; } ul li::marker { content: "» "; font-weight: bold; }
+
