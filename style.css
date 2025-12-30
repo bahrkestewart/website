@@ -12,5 +12,7 @@ button:active{background-color:rgb(175,140,190);}
 #nam{text-shadow: 3px 3px 3px rgba(0,0,0,0.8)}
 
 
-ul { list-style: none; padding-left: 3em; margin: 0; } ul li { margin-bottom: 0.5em; } ul li::marker { content: "» "; font-weight: bold; }
+ul { list-style: none; padding-left: 4em; margin: 0; } 
+ul li { margin-bottom: 0.5em; } 
+ul li::marker { content: "» \00a0\00a0"; font-weight: bold;}
 
