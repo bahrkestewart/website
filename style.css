@@ -1,15 +1,14 @@
-:root{--lynks: rgb(255,182,193);}
-h1{color: rgb(255,182,193); text-shadow: 3px 3px 6px rgba(0,0,0,0.6); -webkit-text-stroke: 1px black; font-size: 40px;}
-header{background-image:url("chicon.png"); background-position:center; height: 190px; margin:0; background-repeat: repeat-x; background-size: contain;}
-body{background: linear-gradient(to right, rgb(220,160,240), rgb(115,70,115));}
+:root{--lynks: rgb(135, 85, 165);}
+h1{color: var(--lynks); text-shadow: 3px 3px 6px rgba(0,0,0,0.6); -webkit-text-stroke: 1px black; font-size: 40px;}
+header{background-image:url("bnnr.png"); background-position:center; height: 190px; margin:0; background-repeat: repeat-x; background-size: contain;}
+body{background: linear-gradient(to left, rgb(225,185,240), rgb(240,235,240));}
 img{float: right; margin-bottom:25px; margin-right:40px; border-color:var(--lynks);}
 hr{border-color:var(--lynks);}
-a:visited{color: var(--lynks); text-shadow: 3px 3px 6px rgba(0,0,0,0.6);}
-a{color:var(--lynks); text-shadow: 3px 3px 6px rgba(0,0,0,0.6);}
-button{float:left; margin:10px; width:120px; height:40px; background-color:rgb(130,80,135); border-color:var(--lynks); color:var(--lynks); text-shadow: 3px 3px 6px rgba(0,0,0,0.6)}
-button:active{background-color:rgb(175,140,190);}
+a:visited{color: var(--lynks); text-shadow: 2px 2px 2px rgba(0,0,0,0.2);}
+a{color:var(--lynks); text-shadow: 2px 2px 2px rgba(0,0,0,0.2);}
+button{float:left; margin:10px; width:120px; height:40px; background-color:rgb(220,210,245); border-color:var(--lynks); color:var(--lynks); text-shadow: 2px 2px 2px rgba(0,0,0,0.2)}
+button:active{background-color:rgb(230,225,235);}
 .clr{clear:both;}
-#nam{text-shadow: 3px 3px 3px rgba(0,0,0,0.8)}
 
 
 ul { list-style: none; padding-left: 4em; margin: 0; } 
