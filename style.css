@@ -11,7 +11,8 @@ button:active{background-color:rgb(230,225,235);}
 .clr{clear:both;}
 
 
-ul { list-style: none; padding-left: 4em; margin: 0; } 
+ul { list-style: none; padding-left:4.25em; margin: 0; } 
 ul li { margin-bottom: 0.5em; } 
-ul li::marker { content: "» \00a0\00a0"; font-weight: bold;}
+ul li::before { content: "» \00a0\00a0"; position: absolute; left: 3em; font-weight: bold;}
+
 
